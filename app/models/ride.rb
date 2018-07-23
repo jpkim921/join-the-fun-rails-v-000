@@ -6,5 +6,5 @@ class Ride < ActiveRecord::Base
 end
 
 
-rails generate migration CreateTaxisPassengersJoinsTable
-create_join_table :taxis, :passengers
+# rails generate migration CreateTaxisPassengersJoinsTable
+# create_join_table :taxis, :passengers
