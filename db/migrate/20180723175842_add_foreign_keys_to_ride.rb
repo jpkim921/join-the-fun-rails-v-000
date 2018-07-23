@@ -1,5 +1,6 @@
 class AddForeignKeysToRide < ActiveRecord::Migration
   def change
-    add
+    add_column :products, :part_number, :string
+
   end
 end
