@@ -4,3 +4,5 @@ class Ride < ActiveRecord::Base
   
   
 end
+
+create_join_table :taxis, :passengers
